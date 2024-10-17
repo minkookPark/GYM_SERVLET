@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://sdsports.or.kr/ -->
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" id="meta_viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10">
+    <title>Space GYM</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./js/swiper.min.css">
+    <script>
+        // 차후 수정 필요.
+        var g5_url = "";
+        var g5_bbs_url = "";
+        var g5_is_member = "";
+        var g5_is_admin = "";
+        var g5_is_mobile = "";
+        var g5_bo_table = "";
+        var g5_sca = "";
+        var g5_editor = "";
+        var g5_cookie_domain = "";
+    </script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="./js/jquery.menu.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/wrest.js"></script>
+    <script src="./js/placeholders.min.js"></script>
+    <script src="./js/global.js"></script>
+    <script src="./js/swiper.min.js"></script>
+</head>
+
+<body>
+
+    <script>
+        var snum = "menu_9999";
+    </script>
+
+    <!-- 헤더 시작 { -->
+    <header id="header">
+        <div class="header_top">
+            <div class="in_1200">
+                <ul class="list_init fl">
+                    <li class="ht_home"><a href="./"><span>홈으로</span></a></li>
+                </ul>
+                <ul class="list_init fr">
+                    <li class="ht_login"><a href="https://sdsports.or.kr/bbs/login.php?url=%2F"><span>로그인</span></a>
+                    </li>
+                    <li class="ht_join"><a href="https://sdsports.or.kr/bbs/register.php"><span>회원가입</span></a></li>
+                </ul>
+                <div class="logo"><a href="https://sdsports.or.kr/"><img src="./img/logo.png" alt="Space Gym"
+                            class="img_fix" title=""></a></div>
+                <div class="toggle_menu"><span class="tg01"></span><span class="tg02"></span><span class="tg03"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container_menu">
+            <!-- 메뉴 시작 { -->
+            <nav id="hd_menu" class="in_1200 mob_menu">
+                <ul class="main_menu">
+                    <li class="menu1"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=01_01"
+                            target="_self"><span>센터소개</span></a>
+                        <div class="sub_menu">
+                            <ul>
+                                <li class="menu_0101"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=01_01"
+                                        target="_self">인사말</a></li>
+                                <li class="menu_0103"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=01_03"
+                                        target="_self">시설현황</a></li>
+                                <li class="menu_0104"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=01_04"
+                                        target="_self">조직도</a></li>
+                                <li class="menu_0105"><a href="https://www.sdsports.or.kr/bbs/board.php?bo_table=01_05"
+                                        target="_self">지도자 소개</a></li>
+                                <li class="menu_0106"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=01_06"
+                                        target="_self">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu2"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=02_01"
+                            target="_self"><span>프로그램안내 및 접수</span></a>
+                        <div class="sub_menu">
+                            <ul>
+                                <li class="menu_0201"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=02_01"
+                                        target="_self">이용자 준수사항</a></li>
+                                <li class="menu_0202"><a href="https://www.sdsports.or.kr/sub/progapp.php?pn=0202"
+                                        target="_self">수영</a></li>
+                                <li class="menu_0203"><a href="https://www.sdsports.or.kr/sub/progapp.php?pn=0203"
+                                        target="_self">헬스</a></li>
+                                <li class="menu_0204"><a href="https://www.sdsports.or.kr/sub/progapp.php?pn=0204"
+                                        target="_self">생활체육</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu3"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=03_01"
+                            target="_self"><span>이용안내</span></a>
+                        <div class="sub_menu">
+                            <ul>
+                                <li class="menu_0301"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=03_01"
+                                        target="_self">이용수칙</a></li>
+                                <li class="menu_0302"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=03_02"
+                                        target="_self">방문접수 안내</a></li>
+                                <li class="menu_0303"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=03_03"
+                                        target="_self">온라인접수 안내</a></li>
+                                <li class="menu_0304"><a href="https://www.sdsports.or.kr/bbs/content.php?co_id=03_04"
+                                        target="_self">일일입장 안내</a></li>
+                                <li class="menu_0305"><a href="https://www.sdsports.or.kr/bbs/board.php?bo_table=03_05"
+                                        target="_self">셔틀버스노선 안내</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu4"><a href="https://www.sdsports.or.kr/bbs/board.php?bo_table=04_01"
+                            target="_self"><span>알림마당</span></a>
+                        <div class="sub_menu">
+                            <ul>
+                                <li class="menu_0401"><a href="https://www.sdsports.or.kr/bbs/board.php?bo_table=04_01"
+                                        target="_self">공지사항</a></li>
+                                <li class="menu_0402"><a href="https://www.sdsports.or.kr/bbs/board.php?bo_table=04_02"
+                                        target="_self">자유게시판</a></li>
+                                <li class="menu_0403"><a href="https://www.sdsports.or.kr/bbs/board.php?bo_table=04_03"
+                                        target="_self">묻고답하기</a></li>
+                                <li class="menu_0404"><a href="https://www.sdsports.or.kr/bbs/board.php?bo_table=04_04"
+                                        target="_self">이달의 일정</a></li>
+                                <li class="menu_0407"><a href="https://www.sdsports.or.kr/bbs/board.php?bo_table=04_07"
+                                        target="_self">채용공고</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu5"><a href="https://www.sdsports.or.kr/sub/progappinq.php?pn=0501"
+                            target="_self"><span>마이페이지</span></a>
+                        <div class="sub_menu">
+                            <ul>
+                                <li class="menu_0501"><a href="https://www.sdsports.or.kr/sub/progappinq.php?pn=0501"
+                                        target="_self">접수현황</a></li>
+                                <li class="menu_0502"><a href="https://www.sdsports.or.kr/sub/cart.php?pn=0502"
+                                        target="_self">장바구니</a></li>
+                                <li class="menu_0503"><a href="https://www.sdsports.or.kr/sub/mbinfo.php?pn=0503"
+                                        target="_self">회원정보</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- } 메뉴 끝 -->
+        </div>
+        <div class="hd_menu_bg" style="display: none;">
+            <div style=""></div>
+        </div>
+    </header>
+    <!-- } 헤더 끝 -->
+
+
+    <!-- 비주얼 시작 { -->
+    <div class="visual">
+        <div class="bg_vis">
+            <ul class="list_init">
+                <li class="vis01"
+                    style="background: url(&quot;https://sdsports.or.kr/theme/basic/images/main_vis01.jpg&quot;) 50% 50% / cover no-repeat rgb(0, 0, 0); width: 1160px; display: list-item;">
+                    <div class="txt_vis in_1200">
+                        <span>시민의 건강체육을 위한 도심속의</span>
+                        <strong>Space GYM</strong>
+                    </div>
+                </li>
+                <li class="vis01"
+                    style="background: url(&quot;https://sdsports.or.kr/theme/basic/images/main_vis02.jpg&quot;) 50% 50% / cover no-repeat rgb(0, 0, 0); width: 1160px; display: none;">
+                    <div class="txt_vis in_1200">
+                        <span>시민의 건강체육을 위한 도심속의</span>
+                       <strong>Space GYM</strong>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="dot_vis">
+            <ul class="list_init">
+                <li class="selected"></li>
+                <li class=""></li>
+            </ul>
+        </div>
+        <div class="mc_btn">
+            <ul class="list_init">
+                <li class="mcbtn01"><a href="https://sdsports.or.kr/bbs/content.php?co_id=03_03"><span>온라인 접수</span></a>
+                </li>
+                <li class="mcbtn02"><a href="https://sdsports.or.kr/bbs/content.php?co_id=03_02"><span>방문접수</span></a>
+                </li>
+                <li class="mcbtn03"><a href="https://sdsports.or.kr/bbs/content.php?co_id=03_01"><span>이용안내</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- } 비주얼 끝 -->
+
+    <!-- 메인 콘텐츠 시작 { -->
+    <div id="wrap_content" class="wrap_main">
+        <div class="main_contents in_1200">
+            <div class="mc_wrap01">
+                <div class="mc_club">
+                    <h3>센터소개</h3>
+                    <p>스페이스씨엘 학생들의 건강을 증진하기 위해 신설된 Space GYM입니다.</p>
+                    <ul class="list_init">                        
+                        <li class="clubb02"><a href="https://sdsports.or.kr/bbs/content.php?co_id=01_03"><span>시설현황
+                                    바로가기</span></a></li>
+                        <li class="clubb03"><a href="https://sdsports.or.kr/bbs/content.php?co_id=01_06"><span>오시는길
+                                    바로가기</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mc_wrap02">
+                <div class="boarda">
+                    <div class="boarda_btn">
+                        <ul class="list_init">
+                            <li class="selected"><a href="javascript:;">
+                                    <h3>공지사항</h3>
+                                </a></li>
+                            <li><a href="javascript:;">
+                                    <h3>정보마당</h3>
+                                </a></li>
+                            <li><a href="javascript:;">
+                                    <h3>채용공고</h3>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="n_con tc1 tabsel">
+                        <a class="more_bt" href="https://sdsports.or.kr/bbs/board.php?bo_table=04_01">더보기</a>
+
+                        <ul>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_01&amp;wr_id=125"> 개인사물함
+                                        직권 정리 공고(10.14.)</a> <i class="fa fa-download" aria-hidden="true"></i></span>
+                                <span class="date">2024.10.14</span>
+                            </li>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_01&amp;wr_id=124"> 2024.
+                                        10월 센터운영 안내</a> </span>
+                                <span class="date">2024.09.26</span>
+                            </li>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_01&amp;wr_id=123"> 2024.
+                                        9. 센터운영 안내</a> </span>
+                                <span class="date">2024.08.30</span>
+                            </li>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_01&amp;wr_id=122"> 2024.
+                                        8월 센터운영 안내</a> </span>
+                                <span class="date">2024.08.06</span>
+                            </li>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_01&amp;wr_id=121"> 수영장
+                                        수질검사 결과 안내(2024년 상반기)</a> </span>
+                                <span class="date">2024.07.22</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="n_con tc2">
+                        <a class="more_bt" href="https://sdsports.or.kr/bbs/board.php?bo_table=04_06">더보기</a>
+
+                        <ul>
+                            <li class="empty_list">게시물이 없습니다.</li>
+                        </ul>
+                    </div>
+                    <div class="n_con tc3">
+                        <a class="more_bt" href="https://sdsports.or.kr/bbs/board.php?bo_table=04_07">더보기</a>
+
+                        <ul>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_07&amp;wr_id=76"> 2024년
+                                        하반기 송도스포츠센터 기간제 근로자(시설관리) 채용 공고</a> <i class="fa fa-download"
+                                        aria-hidden="true"></i></span>
+                                <span class="date">2024.05.31</span>
+                            </li>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_07&amp;wr_id=75"> 2024년
+                                        하반기 송도스포츠센터 기간제 근로자(청소미화) 채용 공고</a> <i class="fa fa-download"
+                                        aria-hidden="true"></i></span>
+                                <span class="date">2024.05.31</span>
+                            </li>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_07&amp;wr_id=74"> 기간제
+                                        근로자(청소미화) 채용 공고</a> <i class="fa fa-download" aria-hidden="true"></i></span>
+                                <span class="date">2024.02.05</span>
+                            </li>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_07&amp;wr_id=73"> 기간제
+                                        근로자(시설관리) 채용 공고</a> <i class="fa fa-download" aria-hidden="true"></i></span>
+                                <span class="date">2024.02.05</span>
+                            </li>
+                            <li>
+                                <span class="txt"><a
+                                        href="https://sdsports.or.kr/bbs/board.php?bo_table=04_07&amp;wr_id=72"> 기간제
+                                        근로자(수상안전요원) 채용 공고</a> <i class="fa fa-download" aria-hidden="true"></i></span>
+                                <span class="date">2024.02.05</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mc_box mcb_program">
+                    <a href="https://sdsports.or.kr/bbs/content.php?co_id=02_01">
+                        <h3>프로그램 안내</h3>
+                        <p>센터의 다양한 프로그램을<br>안내해 드립니다.</p>
+                    </a>
+                </div>
+                <div class="mc_cal">
+
+                    <h3><a href="https://sdsports.or.kr/bbs/board.php?bo_table=04_04">이달의 일정</a></h3>
+                    <div class="cal_control">
+                        <span class="cal_prev" data-ym="2024-09"><span class="sound_only">이전 달의 일정 보기</span></span>
+                        <p>2024.10</p>
+                        <span class="cal_next" data-ym="2024-11"><span class="sound_only">다음 달의 일정 보기</span></span>
+                    </div>
+                    <div class="cal_idx">
+                        <table>
+                            <caption>이달의 일정표</caption>
+                            <colgroup>
+                                <col width="13%">
+                                <col width="14.8%">
+                                <col width="14.8%">
+                                <col width="14.8%">
+                                <col width="14.8%">
+                                <col width="14.8%">
+                                <col width="13%">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th scope="col">S</th>
+                                    <th scope="col">M</th>
+                                    <th scope="col">T</th>
+                                    <th scope="col">W</th>
+                                    <th scope="col">T</th>
+                                    <th scope="col">F</th>
+                                    <th scope="col">S</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span>&nbsp;</span></td>
+                                    <td><span>&nbsp;</span></td>
+                                    <td><span>1</span><span class="sound_only">일</span></td>
+                                    <td><span>2</span><span class="sound_only">일</span></td>
+                                    <td class="col_r"><span>3</span><span class="sound_only">일</span></td>
+                                    <td><span>4</span><span class="sound_only">일</span></td>
+                                    <td><span>5</span><span class="sound_only">일</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>6</span><span class="sound_only">일</span></td>
+                                    <td><span>7</span><span class="sound_only">일</span></td>
+                                    <td><span>8</span><span class="sound_only">일</span></td>
+                                    <td class="col_r"><span>9</span><span class="sound_only">일</span></td>
+                                    <td><span>10</span><span class="sound_only">일</span></td>
+                                    <td><span>11</span><span class="sound_only">일</span></td>
+                                    <td><span>12</span><span class="sound_only">일</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>13</span><span class="sound_only">일</span></td>
+                                    <td><span>14</span><span class="sound_only">일</span></td>
+                                    <td><span>15</span><span class="sound_only">일</span></td>
+                                    <td><span>16</span><span class="sound_only">일</span></td>
+                                    <td class="today"><span>17</span><span class="sound_only">일</span></td>
+                                    <td><span>18</span><span class="sound_only">일</span></td>
+                                    <td><span>19</span><span class="sound_only">일</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>20</span><span class="sound_only">일</span></td>
+                                    <td><span>21</span><span class="sound_only">일</span></td>
+                                    <td><span>22</span><span class="sound_only">일</span></td>
+                                    <td><span>23</span><span class="sound_only">일</span></td>
+                                    <td><span>24</span><span class="sound_only">일</span></td>
+                                    <td><span>25</span><span class="sound_only">일</span></td>
+                                    <td><span>26</span><span class="sound_only">일</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span>27</span><span class="sound_only">일</span></td>
+                                    <td><span>28</span><span class="sound_only">일</span></td>
+                                    <td><span>29</span><span class="sound_only">일</span></td>
+                                    <td><span>30</span><span class="sound_only">일</span></td>
+                                    <td><span>31</span><span class="sound_only">일</span></td>
+                                    <td><span>&nbsp;</span></td>
+                                    <td><span>&nbsp;</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <ul>
+                            <li class="event01">휴관</li>
+                            <li class="event02">수강신청</li>
+                            <li class="event03">일정</li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+            <div class="mc_wrap03">
+                <div class="mc_box mcb_daily">
+                    <a href="https://sdsports.or.kr/bbs/content.php?co_id=03_04">
+                        <h3><span>일일입장 안내</span></h3>
+                    </a>
+                </div>
+                <div class="mc_box mcb_bus">
+                    <a href="https://sdsports.or.kr/bbs/board.php?bo_table=03_05">
+                        <h3>셔틀버스노선 안내</h3>
+                    </a>
+                </div>
+                <div class="mc_consult">
+                    <h3>고객센터</h3>
+                    <h4>051-250-7330</h4>
+                    <ul class="list_init mcc_li">
+                        <li>평&nbsp;&nbsp;&nbsp;&nbsp;일 : 09:00 ~ 18:00</li>
+                        <li>토요일 : 08:00 ~ 13:00</li>
+                        <li>점&nbsp;&nbsp;&nbsp;&nbsp;심 : 12:00 ~ 13:00</li>
+                    </ul>
+                    <ul class="list_init mcc_btn">
+                        <li><a href="https://sdsports.or.kr/bbs/board.php?bo_table=04_03">묻고답하기</a></li>
+                        <li><a href="https://sdsports.or.kr/bbs/board.php?bo_table=04_02">자유게시판</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- } 메인 콘텐츠 끝 -->
+
+
+
+    <!-- 푸터 시작 { -->
+    <footer id="footer">
+        <div class="in_1200">
+            <div class="footer_top">
+                <ul class="list_init">
+                    <li><a href="https://sdsports.or.kr/bbs/content.php?co_id=01_01">센터소개</a></li>
+                    <li class="impor"><a href="https://sdsports.or.kr/sub/privacy.php">개인정보처리방침</a></li>
+                    <li><a href="https://sdsports.or.kr/sub/useterms.php">이용약관</a></li>
+                </ul>
+            </div>
+            <div class="footer_bot in_1200">
+                <div class="copyright">
+                    <p>스페이스씨엘 &nbsp;/&nbsp; 대표 : 박희원 &nbsp;/&nbsp; 사업자등록번호 : 603-83-01058<br>주소 : 서울시 금천구 가산동 459-14 현대타워가산 DK 512호, 513호 &nbsp;/&nbsp; TEL. 051-250-7330 &nbsp;/&nbsp; FAX. 051-250-7329 &nbsp;/&nbsp; E-mail :
+                        admin@spacecl.co.kr</p>
+                    <p class="f_copy">COPYRIGHT © 2024 Space CL &nbsp;ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="blackback"></div>
+</body>
+
+</html>
